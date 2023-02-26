@@ -29,7 +29,7 @@ app.use("/api/v1", studentRoutes);
 app.listen(5000, async () => {
   try {
     await DBCONNECT();
-    console.log("server listening on Port 3000");
+    console.log("server listening on Port 5000");
   } catch (err) {
     console.log(err);
   }
